@@ -1,0 +1,53 @@
+header {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background2);
+  border-bottom: 2px solid var(--accent);
+  box-shadow: 0px 0px 8px var(--accent);
+}
+
+header .logo {
+  width: 256px;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: var(--background3);
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+nav .icon {
+  padding: 8px;
+  background: var(--background4);
+  border: 2px solid var(--foreground5);
+}
+
+nav .text {
+  padding: 8px 16px;
+  font-weight: 400;
+  transition: 0.2s linear;
+  border-right: 2px solid var(--accent);
+}
+
+nav a.active .icon {
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  box-shadow: 0px 0px 8px var(--accent);
+}
+
+nav a:hover .text {
+  background: var(--accent);
+  box-shadow: 0px 0px 8px var(--accent);
+}

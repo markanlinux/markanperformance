@@ -1,0 +1,146 @@
+.contact-hero {
+  margin-top: 32px;
+  padding: 64px 32px;
+  text-align: center;
+  background: var(--background2);
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+.contact-hero h1 {
+  margin-bottom: 32px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.contact-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.contact-content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 0px 32px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+}
+
+.contact-info {
+  padding: 32px;
+  background: var(--background2);
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+.contact-info h2 {
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+.contact-info address {
+  font-style: normal;
+}
+
+.contact-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.contact-info a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: var(--accent);
+}
+
+.contact-form {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  background: var(--background2);
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+.contact-form h2 {
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 8px;
+  padding: 16px;
+  background: var(--background1);
+  border: none;
+  border-left: 2px solid var(--accent);
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 200;
+  transition: 0.2s linear;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 16px var(--accent);
+}
+
+.error-message {
+  display: block;
+  margin-bottom: 16px;
+  min-height: 16px;
+  color: #e05c5c;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.contact-button {
+  align-self: flex-start;
+  margin-top: 8px;
+  padding: 16px 32px;
+  border: unset;
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+  background: var(--background2);
+  color: var(--text);
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.contact-button:hover {
+  background: var(--accent);
+  color: var(--background2);
+  box-shadow: 0px 0px 16px var(--accent);
+}
+
+.form-success {
+  margin-top: 16px;
+  padding: 16px;
+  border-left: 2px solid var(--accent);
+  color: var(--accent);
+  font-weight: 200;
+  letter-spacing: 1px;
+}

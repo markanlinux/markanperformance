@@ -1,0 +1,104 @@
+@import "../../fonts/css/fontawesome.css";
+@import "../../fonts/css/solid.css";
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 100;
+  src: url('../../fonts/webfonts/roboto-100.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 200;
+  src: url('../../fonts/webfonts/roboto-200.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url('../../fonts/webfonts/roboto-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../../fonts/webfonts/roboto-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('../../fonts/webfonts/roboto-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 600;
+  src: url('../../fonts/webfonts/roboto-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../../fonts/webfonts/roboto-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 800;
+  src: url('../../fonts/webfonts/roboto-800.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  src: url('../../fonts/webfonts/roboto-900.woff2') format('woff2');
+}
+
+:root {
+  --background1: #000d00;
+  --background2: #1a261a;
+  --background3: #263326;
+  --background4: #334033;
+  --background5: #404d40;
+
+  --foreground1: #f2fff2;
+  --foreground2: #e6f2e6;
+  --foreground3: #d9e6d9;
+  --foreground4: #ccd9cc;
+  --foreground5: #bfccbf;
+
+  --text: #f2fff2;
+
+  --transparent1: #000d0080;
+  --transparent2: #1a261a80;
+  --transparent3: #26332680;
+  --transparent4: #33403380;
+  --transparent5: #404d4080;
+
+  --accent: #cd7f32;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+html {
+  height: 100%;
+  font-family: "Roboto";
+  background-color: var(--background1);
+  color: var(--text);
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

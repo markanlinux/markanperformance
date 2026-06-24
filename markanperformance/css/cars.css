@@ -1,0 +1,147 @@
+.cars-hero {
+  margin-top: 32px;
+  padding: 64px 32px;
+  text-align: center;
+  background: var(--background2);
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+.cars-hero h1 {
+  margin-bottom: 32px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.cars-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.cars-grid {
+  margin-top: 32px;
+  padding: 0px 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.car-card {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  background: var(--background2);
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+  transition: 0.2s linear;
+}
+
+.car-card:hover {
+  box-shadow: 0px 0px 16px var(--accent);
+}
+
+.car-card img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.car-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.car-title {
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.car-desc {
+  margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.car-specs {
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.car-price {
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.car-button {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 16px 32px;
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+  background: var(--background2);
+  color: var(--text);
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.car-button:hover {
+  background: var(--accent);
+  color: var(--background2);
+  box-shadow: 0px 0px 16px var(--accent);
+}
+
+.cars-compare {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 0px 32px;
+}
+
+.cars-compare h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+.cars-compare table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--background2);
+  border-left: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+.cars-compare caption {
+  margin-bottom: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: var(--text);
+}
+
+.cars-compare th,
+.cars-compare td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--accent);
+}
+
+.cars-compare thead th {
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.cars-compare tbody th {
+  font-weight: 400;
+}
+
+.cars-compare tbody tr:last-child th,
+.cars-compare tbody tr:last-child td {
+  border-bottom: none;
+}

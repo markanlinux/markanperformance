@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markan | Kontakt</title>
+    <link rel="icon" type="image/svg+xml" href="images/common/favicon.svg">
+    <link rel="stylesheet" href="css/common/style.css">
+    <link rel="stylesheet" href="css/common/header.css">
+    <link rel="stylesheet" href="css/common/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="images/common/header/logo.svg" class="logo" alt="Markan Performance logo"></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="button"><span class="icon"><i class="fa-solid fa-home"></i></span><span class="text">Naslovna</span></a></li>
+          <li><a href="cars.html" class="button"><span class="icon"><i class="fa-solid fa-car"></i></span><span class="text">Automobili</span></a></li>
+          <li><a href="about.html" class="button"><span class="icon"><i class="fa-solid fa-users"></i></span><span class="text">O nama</span></a></li>
+          <li><a href="contact.html" class="button active"><span class="icon"><i class="fa-solid fa-phone"></i></span><span class="text">Kontakt</span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <section class="contact-hero">
+        <h1>Kontakt</h1>
+        <p>Javite nam se za upite ili dogovor termina posjete.</p>
+      </section>
+
+      <section class="contact-content" id="upit">
+        <div class="contact-info">
+          <h2>Informacije</h2>
+          <address>
+            <ul>
+              <li>Požega, Hrvatska</li>
+              <li><a href="tel:+38512345678">+385 12 345 6789</a></li>
+              <li><a href="mailto:info@markan-performance.hr">info@markan-performance.hr</a></li>
+              <li>Pon–Pet: 08:00 – 18:00</li>
+            </ul>
+          </address>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <h2>Pošalji upit</h2>
+
+          <label for="name">Ime i prezime</label>
+          <input type="text" id="name" name="name">
+          <small class="error-message" id="name-error"></small>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <small class="error-message" id="email-error"></small>
+
+          <label for="message">Poruka</label>
+          <textarea id="message" name="message" rows="6"></textarea>
+          <small class="error-message" id="message-error"></small>
+
+          <button type="submit" class="contact-button">Pošalji</button>
+
+          <p class="form-success" id="form-success" hidden>Uspješno poslano, javit ćemo se uskoro.</p>
+        </form>
+      </section>
+
+    </main>
+    <footer>
+      <p>© 2026 Markan Performance. Sva prava pridržana.</p>
+    </footer>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
